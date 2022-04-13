@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Endless-offical/static/css/main.e56e89e6.css",
+    "main.js": "/Endless-offical/static/js/main.e4caa73c.js",
+    "static/js/787.7cf353e8.chunk.js": "/Endless-offical/static/js/787.7cf353e8.chunk.js",
+    "index.html": "/Endless-offical/index.html",
+    "main.e56e89e6.css.map": "/Endless-offical/static/css/main.e56e89e6.css.map",
+    "main.e4caa73c.js.map": "/Endless-offical/static/js/main.e4caa73c.js.map",
+    "787.7cf353e8.chunk.js.map": "/Endless-offical/static/js/787.7cf353e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e56e89e6.css",
+    "static/js/main.e4caa73c.js"
+  ]
+}
