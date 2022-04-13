@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/Endless-offical/static/css/main.e56e89e6.css",
-    "main.js": "/Endless-offical/static/js/main.e4caa73c.js",
+    "main.css": "/Endless-offical/static/css/main.7f727237.css",
+    "main.js": "/Endless-offical/static/js/main.e8718fba.js",
     "static/js/787.7cf353e8.chunk.js": "/Endless-offical/static/js/787.7cf353e8.chunk.js",
+    "static/media/icons8-instagram-48.svg": "/Endless-offical/static/media/icons8-instagram-48.8ff7ce92ad753b591ed4.svg",
     "index.html": "/Endless-offical/index.html",
-    "main.e56e89e6.css.map": "/Endless-offical/static/css/main.e56e89e6.css.map",
-    "main.e4caa73c.js.map": "/Endless-offical/static/js/main.e4caa73c.js.map",
+    "main.7f727237.css.map": "/Endless-offical/static/css/main.7f727237.css.map",
+    "main.e8718fba.js.map": "/Endless-offical/static/js/main.e8718fba.js.map",
     "787.7cf353e8.chunk.js.map": "/Endless-offical/static/js/787.7cf353e8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e56e89e6.css",
-    "static/js/main.e4caa73c.js"
+    "static/css/main.7f727237.css",
+    "static/js/main.e8718fba.js"
   ]
 }
