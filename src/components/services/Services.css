@@ -1,0 +1,81 @@
+#Services-div {
+    width: 100%;
+    /* border: 1px white solid; */
+    display: flex;
+    position: absolute;
+    top: 15vh;
+}
+
+
+#main-products-cloumn {
+    /* border: 1px solid red; */
+    color: white;
+    font-size: larger;
+    gap: 10px;
+    padding: 10px;
+    display: grid;
+    font-weight: 700;
+}
+
+
+#i {
+    /* background: url(http://localhost:3003/static/media/Computer.9af8c3b5b6041bb1fce8.png); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+}
+
+[icon=social]{
+    background: url(../../images/Mailbox.png);
+}
+[icon=game]{
+    background: url(../../images/Loading.png);
+}
+
+.Pineapple {
+    padding: 5px;
+    border-radius: 5px;
+    /* max-width: 10vw; */
+}
+
+[product-icon=catchTheBee] {
+    background: url(https://i.pinimg.com/originals/ae/7f/0a/ae7f0aa6330f9db3896a4c9190281006.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 5px;
+    background-position: center;
+}
+
+[product-icon]{
+    flex-grow: 20;
+}
+
+.tang {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    color: white;
+    font-weight: bold;
+    gap: 5%;
+    background: #514c60;
+    border-radius: 5px;
+    padding: 2%;
+    width: 25vw;
+    box-sizing: border-box;
+}
+
+.tang:hover{
+    border: 2px solid #f122ff;
+}
+
+.actve{
+    background-color: #634d9b;
+}
+
+
+.flx-1 {
+    flex-grow: 1;
+    text-align: center;
+}

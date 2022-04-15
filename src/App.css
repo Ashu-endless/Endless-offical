@@ -16,36 +16,58 @@
   position: absolute;
   display: grid;
   grid-auto-flow: row;
-  grid-auto-rows: 95vh;
+  /* grid-auto-rows: 95vh; */
   overflow: auto;
   overflow-x: hidden;
 }
 
-#Endless-moto {
+/* #Endless-moto {
   color: white;
   font-size: 4vw;
   width: 60vw;
   position: absolute;
   top: 45vw;
   left: 6vw;
+} */
+#Endless-moto {
+  color: white;
+  font-size: 4vw;
+  width: 60vw;
+  position: relative;
+  /* top: 45vw; */
+  /* left: 6vw; */
+  width: 75vw;
+  font-weight: 700;
+  margin-left: 2%;
 }
-#Endless-Title {
+/* #Endless-Title {
   font-size: 20vw;
   color: white;
   position: absolute;
   top: 15vw;
   left: 5%;
   color: blueviolet;
+} */
+#Endless-Title {
+  font-size: 22vw;
+  color: white;
+  /* position: absolute; */
+  /* top: 15vw; */
+  /* left: 5%; */
+  font-weight: 600;
+  color: blueviolet;
+  text-align: left;
 }
 
 .h1 {
   color: white;
-  font-size: large;
+  font-size: x-large;
   color: #8c59bb;
   padding: 0px 20px;
   font-weight: 900;
+  position: absolute;
+  top: 0;
 }
-
 
 #section-2 {
   position: relative;
@@ -55,4 +77,83 @@
 
 section#section-3 {
   background-color: #100b0b;
+}
+
+
+#computer-png {
+  background: url(http://localhost:3003/static/media/Computer.9af8c3b5b6041bb1fce8.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+      /* width: 100%; */
+      flex-grow: 1;
+      height: 100%;
+      position: relative;
+}
+#idea-div {
+  display: flex;
+  position: relative;
+  flex-flow: row;
+  align-items: center;
+  padding: 2vh 3vw;
+  height: 30vh;
+  /* align-items: center; */
+}
+#instagram-icon {
+  background: url(http://localhost:3003/static/media/icons8-instagram-48.8ff7ce92ad753b591ed4.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 10vw;
+  max-width: 50px;
+}
+#idea-p {
+  color: white;
+  font-size: xx-large;
+  color: burlywood;
+  max-width: 65vw;
+  font-weight: 700;
+  flex-grow: 3;
+}
+
+.section{
+  position: relative;
+}
+
+#cwu-div {
+  color: white;
+  display: grid;
+  justify-items: center;
+  /* width: 100vw; */
+  font-weight: 900;
+}
+
+.orange {
+  justify-self: center;
+  font-size: x-large;
+  color: orange;
+}
+
+
+#cwu-a {
+  color: #9090d7;
+  text-decoration: none;
+  display: grid;
+  grid-auto-flow: column;
+  font-size: x-large;
+  width: fit-content;
+  /* width: fit-content; */
+  /* justify-items: center; */
+  border: 2px #9090d7 solid;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+#Endless-fp {
+  height: fit-content;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100vw;
+  padding: 2vh 3vw;
+  text-align: left;
 }
