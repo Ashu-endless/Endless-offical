@@ -10,9 +10,10 @@ class StarsDiv extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-          Allstars: starsdict.map(star => {
+          Allstars: starsdict.map((star,index) => {
+            // console.log(index)
             return (
-              <Star/>
+              <Star  />
               
             )
           }),

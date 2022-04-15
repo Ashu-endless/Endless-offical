@@ -16,7 +16,7 @@
   position: absolute;
   display: grid;
   grid-auto-flow: row;
-  /* grid-auto-rows: 95vh; */
+  grid-auto-rows: 95vh;
   overflow: auto;
   overflow-x: hidden;
 }
@@ -81,7 +81,7 @@ section#section-3 {
 
 
 #computer-png {
-  background: url(http://localhost:3003/static/media/Computer.9af8c3b5b6041bb1fce8.png);
+  background: url(./images/Computer.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -100,7 +100,7 @@ section#section-3 {
   /* align-items: center; */
 }
 #instagram-icon {
-  background: url(http://localhost:3003/static/media/icons8-instagram-48.8ff7ce92ad753b591ed4.svg);
+  background: url(./images/icons8-instagram-48.svg);
   background-repeat: no-repeat;
   background-position: center;
   width: 10vw;
@@ -126,6 +126,7 @@ section#section-3 {
   /* width: 100vw; */
   font-weight: 900;
 }
+
 
 .orange {
   justify-self: center;

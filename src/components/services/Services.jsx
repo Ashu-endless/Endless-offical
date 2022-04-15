@@ -1,8 +1,10 @@
 import React from 'react';
 import './Services.css'
 import MainProductCategory from './MainPrdctCatgry';
-import Product from './Product';
-// import { NavLink } from "react-router-dom";
+// import Product from './Product';
+import SocialProductView from './SocialProductView';
+import ProductView from './ProductView';
+import { NavLink,Route, Routes  } from "react-router-dom";
 class Services extends React.Component {
 
     
@@ -17,12 +19,18 @@ class Services extends React.Component {
       return (
         <div id='Services-div' > 
             <div id='main-products-cloumn'>
-          {/* <NavLink>  <MainProductCategory a="actve" for="Games" icon="game" /> </NavLink> */}
-          {/* <NavLink>  <MainProductCategory for="Social" icon="social" /> </NavLink> */}
+          <NavLink to='/games' activeClassName="actve" >  <MainProductCategory  for="Games" icon="game" /> </NavLink>
+          <NavLink to='./social' activeClassName="actve" >  <MainProductCategory for="Social" icon="social" /> </NavLink>
+          {/* <MainProductCategory a="actve" for="Games" icon="game" /> */}
+        {/* <MainProductCategory for="Social" icon="social" /> */}
             </div>
-            <div id='product-view' >
+            <Routes>
+              <Route path='/games' element={<ProductView />} ></Route>
+              <Route path='/social' element={<SocialProductView />} ></Route>
+            {/* <div id='product-view' >
             <Product icon="catchTheBee" name="Catch The Bee" />
-            </div>
+            </div> */}
+            </Routes>
         </div>
       );
     }

@@ -15,7 +15,7 @@ function App() {
   </section>
 
   <section id="section-2" className='section' >
-    <p class={"h1"} >Our product and Services</p>
+    <p className={"h1"} >Our product and Services</p>
     <Services />
   </section>
 
