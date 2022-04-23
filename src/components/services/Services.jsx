@@ -19,8 +19,8 @@ class Services extends React.Component {
       return (
         <div id='Services-div' > 
             <div id='main-products-cloumn'>
-          <NavLink to='/games' activeClassName="actve" >  <MainProductCategory  for="Games" icon="game" /> </NavLink>
-          <NavLink to='./social' activeClassName="actve" >  <MainProductCategory for="Social" icon="social" /> </NavLink>
+          <NavLink to='/games' className={(navData) => (navData.isActive ? "active" : 'none')} >  <MainProductCategory  for="Games" icon="game" /> </NavLink>
+          <NavLink to='/social' className={(navData) => (navData.isActive ? "active" : 'none')} >  <MainProductCategory for="Social" icon="social" /> </NavLink>
           {/* <MainProductCategory a="actve" for="Games" icon="game" /> */}
         {/* <MainProductCategory for="Social" icon="social" /> */}
             </div>

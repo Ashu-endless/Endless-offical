@@ -1,34 +1,63 @@
-
+import React from 'react';
 import './App.css';
-import StarsDiv from './components/stars/StarsDiv';
-import Services from './components/services/Services';
+import OurServices from './sections/OurServies';
+import EndlessLogo from './sections/EndlessLogo';
+import ConnectWithUs from './sections/ConnectWithUs';
+// import ScrollAnimation from 'react-animate-on-scroll'
+// import "../node_modules/animate.css/animate.min.css";
+// import './animation.css'
+// import { Controller, Scene } from 'react-scrollmagic';
+// const SectionWipesStyled = styled.div`
+//   overflow: hidden;
+
+//   .panel {
+//     height: 100vh;
+//     width: 100vw;
+//     text-align: center;
+//   }
+  
+//   .panel span {
+//     position: relative;
+//     display: block;
+//     overflow: visible;
+//     top: 50%;
+//     font-size: 80px;
+//   }
+  
+//   .panel.blue {
+//     background-color: #3883d8;
+//   }
+  
+//   .panel.turqoise {
+//     background-color: #38ced7;
+//   }
+  
+//   .panel.green {
+//     background-color: #22d659;
+//     margin-bottom: 800px;
+//   }
+  
+//   .panel.bordeaux {
+//     background-color: #953543;
+//   }
+
+// `;
 function App() {
+
+  
+
+
   return (
     <>
-    <section className='section'>
-      <StarsDiv/>
-<div id='Endless-fp' >
-    <div id='Endless-Title' >Endless</div>
-  <div id='Endless-moto' >Exploring the endless possibilities of endless universe...</div>
-</div>
+  {/* <div className='scale-in-ver-center' ></div> */}
   
-  </section>
+      <EndlessLogo/>
 
-  <section id="section-2" className='section' >
-    <p className={"h1"} >Our product and Services</p>
-    <Services />
-  </section>
+      <OurServices/>
 
-  <section id='section-3' className='section' >
-    <div id='idea-div' >
-    <p id='idea-p' >Have an startup idea related to app or tech?</p>
-    <div id='computer-png' ></div>
-    </div>
 
-    <div id='cwu-div' > <p className='orange' >Connect with us at</p>
-    <a id='cwu-a' href="https://www.instagram.com/ashu_endless_/"> <div id='instagram-icon' ></div> <p>ashu_endless_</p> </a>
-     </div>
-  </section>
+     <ConnectWithUs/> 
+
     </>
     
   );
